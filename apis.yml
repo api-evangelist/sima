@@ -1,8 +1,29 @@
 aid: sima
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sima.png
 name: SiMa
-description: 'SiMa is a company surfaced as a portfolio company of amplify-partners, wing-venture-capital
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai-ml. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  SiMa.ai is a Silicon Valley machine-learning semiconductor company building a
+  co-optimized hardware and software platform for physical AI at the edge. Its
+  MLSoC (Machine Learning System-on-Chip) family — including the Modalix line
+  delivering roughly 50 TOPS under 10 watts in multiple form factors — targets
+  drones, robotics, automotive, industrial, retail, government, and healthcare.
+  The developer experience centers on the Palette software suite and an agentic
+  development environment that compiles and deploys computer-vision and
+  multimodal models onto SiMa silicon, backed by a Developer Center, a model
+  browser, a Hugging Face model hub (simaai), and a community forum. SiMa.ai
+  ships downloadable SDK/CLI tooling and evaluation hardware (Modalix DevKit)
+  rather than a hosted public HTTP API.
 url: https://raw.githubusercontent.com/api-evangelist/sima/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ai Ml
+- Edge AI
+- Machine Learning
+- Semiconductors
+- Computer Vision
+- Robotics
+- MLSoC
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +53,24 @@ maintainers:
 common:
 - type: Website
   url: https://sima.ai
+- type: DeveloperPortal
+  url: https://developer.sima.ai/
+- type: Documentation
+  url: https://developer.sima.ai/
+- type: Blog
+  url: https://sima.ai/blog/
+- type: Support
+  url: https://community.sima.ai
+- type: PrivacyPolicy
+  url: https://sima.ai/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/SiMa-ai
+- type: DomainSecurity
+  url: security/sima-domain-security.yml
+- type: WellKnown
+  url: well-known/sima-well-known.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
